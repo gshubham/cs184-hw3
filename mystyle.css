@@ -1,0 +1,18 @@
+.body {
+	background-color: #D2F5FA;
+	font-family: Gill Sans, sans-serif;
+	font-size: 22
+}
+
+.section {
+	margin-left: 50;
+	margin-top : 10;
+	margin-right : 400;
+	padding-top : 10;
+	padding-left : 10;
+	border-style : groove;
+	border-color: #88BCF7;
+	font-size: 20;
+	background-color: rgba(96,96,97,0.2);
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
