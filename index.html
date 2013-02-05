@@ -8,62 +8,205 @@
 	<section class = "section">
 	Click on a tag to see its style : 
 	<ul>
-		<li> <a  href = "#yay">Section</a> 
-		<li> Address
-		<li> Paragraph 
-		<li> Horizontal Line
-		<li> BlockQuote
-		<li> Lists
-		<li> Definition
-		<li> Anchor
-		<li> Inline Quotation
-		<li> Abbreviation
-		<li> Computer Code
-		<li> Variable
-		<li> Image
-		<li> Canvas?
-		<li> Border
-		<li> Math
-		<li> Table
-		<li> Form
+		<li> <a href = "#sectionexp">Section</a> 
+		<li> <a href = "#addressexp">Address </a>
+		<li> <a href = "#paragraphexp">Paragraph</a>
+		<li> <a href = "#blockquoteexp">BlockQuote, Definitions, Abbreviations and Inline Quotations</a>
+		<li> <a href = "#listexp">Lists </a>
+		<li> <a href = "#linkanchorexp">Anchor </a>
+		<li> <a href = "#codeexp">Computer Code and Variables </a>
+		<li> <a href = "#imagexp">Image and Canvas</a>
+		<li> <a href = "#mathexp">Math</a>
+		<li> <a href = "#tablexp">Table</a>
+		<li> <a href = "#formexp">Form</a>
 	</ul>
 	</section>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff	<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-	Stuff<br>
-Stuff	<br>
-Stuff	Stuff<br>
-vStuff	<br>
-StStuffuff	<br>
-Stuff	<br>
-Stuff	<br>
-Stuff		<br>
-Stuff	<br>
-StuffStuffStuffStuffStuff	<br>
-StuffStuffStuffStuffStuffStuff	<br>
-StuffStuffStuff	<br>
-StuffStuffStuffStuff	<br>
-Stuff	<br>
-StuffStuff	<br>
-Stuff	<br>
-StuffStuff	<br>
-Stuff	<br>
-	<a id= "yay"> 
-		Section Stuff
-	</a>
+	<br>
+	<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<a id = "sectionexp"> </a>
+	<section class = "section"> 
+		Section.
+		<ul>
+		<li>This is an HTML Section. It defines a section in a document.
+		</ul>
+	</section>
+	<br/>
+		<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br/>
+	<a id = "addressexp"> </a>
+		<address class = "address">
+		<strong>Address. </strong> <br>
+  You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+  If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+  You may also want to visit us:<br>
+  Mozilla Foundation<br>
+  1981 Landings Drive<br>
+  Building K<br>
+  Mountain View, CA 94043-0801<br>
+  USA
+</address>
+<br>
+<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<a id = "paragraphexp"> </a>
+	<p class = "paragraph">
+		This is an HTML paragraph generated with the p tag. <br>
+		This project is for my class, Startup Engineering.
+	</p>
+	<br>
+	<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+<blockquote id = "blockquoteexp" class = "blockquote" cite="http://developer.mozilla.org">
+  <strong>BlockQuote</strong> : This is a quotation taken from the Mozilla Developer Center. <br>
+<strong> Definition </strong> : <dfn id="def-internet">The Internet</dfn> is a global system of interconnected networks that use the Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. <br>
+
+    <dfn>
+      <abbr title="World-Wide Web">WWW</abbr>
+    </dfn> <br>
+  The World-Wide Web (WWW) is a system of interlinked hypertext documents accessed on <a href="#def-internet">the Internet</a>.
+  <br>
+  <strong> Inline Quotation </strong> : Everytime Kenny is killed, Stan will announce 
+   <q cite="http://en.wikipedia.org/wiki/Kenny_McCormick#Cultural_impact">
+     Oh my God, you/they killed Kenny!
+   </q>. <br>
+</p>
+</blockquote>
+<br>
+<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<p id = "listexp"><center><strong> Examples of lists. </strong> </center> </p>
+	<ul class = "unordered">
+		<li> Name 1 </li>
+			<li> Name 2 </li>
+				<li> Name 3 </li>
+			</ul>
+			<br>
+			<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+
+	<a class = "link" id = "linkanchorexp" href = "www.google.com"> This is a hyperlink in my style sheet. </a>
+	<br>
+	<br>
+	<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<p><center><strong>Function that returns the factorial of number n.</strong></center> <br>
+	 <code id = "codeexp" class = "codestyle">int fact(int n) { 
+	 	if(n==1) return 1; 
+	 	else return n * fact(n-1); 
+	 }</code> </p>
+	 <br>
+	 <hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<img id = "imagexp" class = "image" src = "helloworld.jpg">
+	<br>
+	<br>
+		<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<p><center><strong> This shows the use of the math tag. </center></strong> 
+	<br>
+	 <math id = "mathexp" class = "math">
+    <mrow>
+      <mrow>
+        <msup>
+          <mi>a</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+          <mi>b</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+        <mi>c</mi>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+  </math>
+</p>
+<br>
+<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<p><center><strong> This is an example of a table. </strong> </center> </p>
+	<table id = "tablexp" class = "table"> 
+		<tr>
+			<td class = "td">HELLO</td>
+			<td class = "td">HELLO</td>
+			<td class = "td">HELLO</td>
+		</tr>
+		<tr>
+			<td class = "td2">HELLO</td>
+			<td class = "td2">HELLO</td>
+			<td class = "td2">HELLO</td>
+		</tr>
+		<tr>
+			<td class = "td3">HELLO</td>
+			<td class = "td3">HELLO</td>
+			<td class = "td3">HELLO</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+	<p><center><strong> This is an example of a form. </strong> </center> </p>
+	<form id = "formexp" class = "form">
+		Name : <input type = "text"> <br>
+		Password : <input type = "password"> <br>
+		<input type = "button" value = "Submit">
+	</form>
+	<br>
+	<hr style = " width:85%; 
+	background:#4D4D4D; 
+	border:0; 
+	align:center; 
+	height:2px" />
+	<br>
+
 </body>
 </html>

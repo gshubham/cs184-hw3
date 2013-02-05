@@ -1,5 +1,5 @@
 .body {
-	background-color: #D2F5FA;
+	background-color: #FAF5E8;
 	font-family: Gill Sans, sans-serif;
 	font-size: 22
 }
@@ -11,8 +11,127 @@
 	padding-top : 10;
 	padding-left : 10;
 	border-style : groove;
-	border-color: #88BCF7;
+	border-color: #A8A8A8;
 	font-size: 20;
+	text-shadow: 0 1px 0 #000;
 	background-color: rgba(96,96,97,0.2);
+	-moz-box-shadow:    1px 1px 3px 3px #000;
+ 	-webkit-box-shadow: 1px 1px 3px 3px #000;
+  	box-shadow:         1px 1px 3px 3px #000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+.address {
+	margin-left : 200;
+	margin-right : 200;
+	text-align: right;
+	padding-right: 20;
+	padding-top: 10;
+	padding-bottom: 10;
+	background-color: #F7E0AB;
+	border-style: groove;
+	font-family: "Tahoma, Geneva,", sans-serif;
+}
+
+.paragraph {
+	text-align: center;
+	background-color: #FFB969;
+	margin-left: 150;
+	margin-right: 150;
+	padding-top:5;
+	padding-bottom: 5;
+	border-style : dashed;
+}
+.blockquote {
+	text-align: center;
+	background-color: #CCF58C;
+	margin-left: 150;
+	margin-right: 150;
+	padding-top:5;
+	padding-bottom: 5;
+	border-style : ridge;
+}
+
+a:link {
+	text-decoration: none;
+	color:#F26666;
+}
+a:visited {
+	text-decoration: none;
+	color : #C44923;
+}
+a:hover {
+	text-decoration: underline;
+	color : #FF3C00;
+}
+.link {
+	text-align: center;
+	margin-left: 450;
+text-decoration: none;
+color : #000000;
+
+}
+.link:hover {
+color : #F20000;
+border-style: none;
+background-color : #EDD100;
+text-decoration: none;
+}
+
+.codestyle {
+	margin-left: 200;
+color : #FFFFFF;
+background-color : #282966;
+border-style : inset;
+}
+.image {
+	margin-left: 350;
+}
+.image:hover {
+opacity : 0.8;
+border-style:dashed;
+}
+.math {
+	margin-left: 540;
+	border-color: #000000;
+	background-color: #E4ED95;
+	border-style: solid;
+	padding: 10 10 10 10;
+}
+.table {
+	margin-left: 250;
+	width:60%;
+	border-color : green;
+	border-style : dashed;
+}
+.td {
+	text-align: center;
+	border-style: groove;
+	border-width: 2;
+}
+.td2 {
+	text-align: right;
+	border-style: ridge;
+	border-width: 5;
+}
+.td3 {
+	text-align: left;
+	border-style: solid;
+	border-width : 5;
+}
+.form {
+	margin-right: 420;
+	padding: 10 10 10 10 ;
+	margin-left: 450;
+	border-style : solid;
+	border-color: black;
+	font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.unordered {
+	font-family: "Tahoma, Geneva,", sans-serif;
+	margin-left: 500; 
+	font-size: 35;
+	color : #EDD100;
+	text-shadow : 0.05em 0.05em #333;
 }
